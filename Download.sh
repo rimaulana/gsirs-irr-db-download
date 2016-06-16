@@ -18,7 +18,6 @@ IFS=,
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 while read IRR URL EXTENSION
 do
-	echo "Processing $IRR"
 	DEST_FOLDER="$DESTINATION/$IRR"
 	if ! [[ -e  $DEST_FOLDER ]]; then
 		mkdir $DEST_FOLDER
