@@ -1,4 +1,6 @@
 #!/bin/bash
+#This is line of comment
+
 SCRIPT=$(readlink -f $0)
 ROOTDIR=`dirname $SCRIPT`
 
